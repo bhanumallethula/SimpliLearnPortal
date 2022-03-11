@@ -17,11 +17,11 @@ public class CSSSelectorDemo {
 		
 		// 1. find element using tag and id ==> tagname#idvalue
 		
-		driver.findElement(By.cssSelector("input#first_name")).sendKeys("hari");
+		driver.findElement(By.cssSelector("input#first_name")).sendKeys("Bhavani");
 		
-		//driver.findElement(By.cssSelector("input.required")).sendKeys("Gadhe");
+		//driver.findElement(By.cssSelector("input.required")).sendKeys("Mallethula");
 		
-        driver.findElement(By.cssSelector("input[name=last_name]")).sendKeys("Gadhe");
+        driver.findElement(By.cssSelector("input[name=last_name]")).sendKeys("Mallethula");
 	}
 
 }
